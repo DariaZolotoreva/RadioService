@@ -29,11 +29,9 @@ public class Radio {
         } else currentRadioStation = 9;
     }
 
-        public void setToMaxRadioStation() {
+    public void setToMaxRadioStation() {
         currentRadioStation = 9;
-        }
-
-
+    }
 
 
     private int currentVolume;
